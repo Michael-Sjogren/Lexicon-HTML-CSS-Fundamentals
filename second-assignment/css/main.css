@@ -1,0 +1,67 @@
+html
+{
+    background-color: aliceblue;
+}
+
+body
+{
+    padding: .1rem;
+    font-family: sans-serif;
+    font-size: 16px;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+.flex
+{
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+/** Navigation **/
+#main-navigation
+{
+    margin: 2px;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+#main-navigation > nav 
+{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+#main-navigation li 
+{
+    padding: 1.5rem;
+}
+/**  **/
+
+.block
+{
+    display: block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul > li 
+{
+    padding: .8em;
+}
+
+main
+{
+    padding: 1rem;
+}
+
+footer
+{
+    text-align: center;
+    padding: 2rem;
+}

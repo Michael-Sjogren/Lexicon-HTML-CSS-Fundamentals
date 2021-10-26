@@ -1,0 +1,38 @@
+@import 'main.css';
+
+form
+{
+    padding: 1rem 0;
+    max-width: 100%;
+}
+
+label
+{
+    padding: .5rem 0;
+    display: block;
+}
+
+.field
+{
+    text-align: left;
+    margin-right: .5rem;
+    padding: .5rem 0;
+}
+
+.field > input
+{
+    padding: .4rem;
+}
+
+.button-group
+{
+    padding: .5rem 0;
+    display: block;
+    text-align: left;
+}
+
+.button-group > input
+{
+    padding: .5rem;
+    min-width: 5rem;
+}

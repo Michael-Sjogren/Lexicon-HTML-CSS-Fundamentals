@@ -1,0 +1,13 @@
+@import 'main.css';
+@import 'grid.css';
+
+
+main.grid-container
+{
+    grid-template-columns: 2fr 1fr;
+}
+
+.articles.grid-container
+{
+    grid-template-columns: 2fr 2fr;
+}

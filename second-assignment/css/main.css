@@ -13,6 +13,10 @@ body
     background-color: beige;
 }
 
+.uppercase
+{
+    text-transform: uppercase;
+}
 .flex
 {
     display: flex;
